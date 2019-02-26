@@ -37,7 +37,7 @@ func init() {
 	if err != nil {
 		log.Fatalf("Error: cannot read config. Reason: %v\n", err)
 	}
-	apikey = cfg.GetString("ocr_service_apikey")
+	apikey = cfg.GetString("apikey")
 }
 
 func main() {
