@@ -11,7 +11,7 @@ import (
 	"github.com/Diggernaut/viper"
 	"github.com/gorilla/mux"
 	"github.com/natefinch/lumberjack"
-	"github.com/otiai10/gosseract"
+	"github.com/Diggernaut/gosseract"
 )
 
 var (
