@@ -7,11 +7,11 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/Diggernaut/cast"
-	"github.com/Diggernaut/viper"
+	"github.com/diggernaut/cast"
+	"github.com/diggernaut/viper"
 	"github.com/gorilla/mux"
 	"github.com/natefinch/lumberjack"
-	"github.com/Diggernaut/gosseract"
+	"github.com/diggernaut/gosseract"
 )
 
 var (
